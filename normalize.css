@@ -1,0 +1,62 @@
+/**
+ Basic normalize style for native tags
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1, 2;
+    width: 600px;
+    padding: 2px 1px 5px 1px;
+    margin: 1px 1px 1px 1px;
+    font-weight: normal;
+    padding-bottom: 40px;
+
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: Montserrat;
+    color: #000000;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: lighter;
+    color: #FFFFFF;
+    line-height: normal;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #000000;
+}
+
+a:hover,
+img:hover {
+    text-decoration: none !important;
+}
