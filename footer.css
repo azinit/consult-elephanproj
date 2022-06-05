@@ -1,0 +1,26 @@
+#footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: #000000;
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+}
+
+footer a:not(:first-child) {
+    margin-left: 14px;
+}
+
+footer nav a:hover {
+    border-bottom: 1px solid white;
+    /* text-decoration: dashed; */
+}
+
+.grafic-logo {
+    margin: 20px;
+}
