@@ -10,11 +10,11 @@ header {
 
 }
 
-.menu {
+.header__menu {
     flex-grow: 1;
 }
 
-.menu ul {
+.header__menu ul {
     display: flex;
     flex-flow: row nowrap;
     margin: 0;
@@ -22,24 +22,24 @@ header {
     list-style: none;
 }
 
-.menu li {
+.header__menu li {
     margin-right: 20px;
 }
 
-.menu li:last-child {
+.header__menu li:last-child {
     margin-right: 0;
 }
 
-.menu a {
+.header__menu a {
     padding: 8px 10px;
 }
 
-.logo {
+.header__logo {
     margin-right: 30px;
 }
 
 
-.menu a {
+.header__menu a {
     display: inline-block;
     color: #000000;
     /* Цвет обычной ссылки */
@@ -49,7 +49,7 @@ header {
     cursor: pointer;
 }
 
-.menu a:after {
+.header__menu a:after {
     background-color: #f66d52;
     /* Цвет линии при наведении на нее курсора мыши */
     display: block;
@@ -62,12 +62,12 @@ header {
     transition: width .3s ease-in-out;
 }
 
-.menu a:hover:after,
-.menu a:focus:after {
+.header__menu a:hover:after,
+.header__menu a:focus:after {
     width: 100%;
 }
 
-.tel a {
+.header__tel a {
     display: inline-block;
     color: #000000;
     /* Цвет обычной ссылки */
@@ -77,7 +77,7 @@ header {
     cursor: pointer;
 }
 
-.tel a:after {
+.header__tel a:after {
     background-color: #f66d52;
     /* Цвет линии при наведении на нее курсора мыши */
     display: block;
@@ -90,18 +90,18 @@ header {
     transition: width .3s ease-in-out;
 }
 
-.tel a:hover:after,
-.tel a:focus:after {
+.header__tel a:hover:after,
+.header__tel a:focus:after {
     width: 100%;
 }
 
-.menu a,
-.menu .active {
+.header__menu a,
+.header__menu .active {
     display: block;
     padding: 8px 10px;
 }
 
-.menu .active {
+.header__menu .active {
     color: #fff;
     background-color: coral;
     border-radius: 8px;
