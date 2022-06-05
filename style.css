@@ -25,26 +25,6 @@ main {
     margin-right: auto;
 }
 
-nav {
-    background: #D5FADC;
-    width: 500px;
-    padding: 20px;
-}
-
-nav li {
-    list-style: none;
-}
-
-.nav-item {
-    text-decoration: none;
-    transition: 0.25s;
-
-}
-
-nav .active {
-    color: coral;
-}
-
 .SLON section {
     left: 50%;
 }
