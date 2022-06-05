@@ -6,3 +6,10 @@ body {
 .header, .wrapper {
     margin: 0 10%;
 }
+
+.wrapper {
+    display: flex;
+    position: relative;
+    min-height: 100%;
+    background: white;
+}

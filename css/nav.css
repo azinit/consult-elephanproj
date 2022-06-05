@@ -1,16 +1,20 @@
 nav {
     background: #D5FADC;
-    width: 500px;
-    padding: 20px;
+    width: 25%;
+    padding: 40px 0;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     overflow: auto;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav li {
     list-style: none;
+    font-size: 1.15rem;
 }
 
 .nav-item {
