@@ -1,0 +1,108 @@
+header {
+    background: #66FF99;
+    width: 1000x;
+    height: 90px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu {
+    flex-grow: 1;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    padding: 8px 10px;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+
+.menu a {
+    display: inline-block;
+    color: #000000;
+    /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    cursor: pointer;
+}
+
+.menu a:after {
+    background-color: #f66d52;
+    /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;
+    /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.menu a:hover:after,
+.menu a:focus:after {
+    width: 100%;
+}
+
+.tel a {
+    display: inline-block;
+    color: #000000;
+    /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    cursor: pointer;
+}
+
+.tel a:after {
+    background-color: #f66d52;
+    /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;
+    /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.tel a:hover:after,
+.tel a:focus:after {
+    width: 100%;
+}
+
+.menu a,
+.menu .active {
+    display: block;
+    padding: 8px 10px;
+}
+
+.menu .active {
+    color: #fff;
+    background-color: coral;
+    border-radius: 8px;
+}
