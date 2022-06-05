@@ -1,0 +1,248 @@
+<style>
+h2 {
+    font-size: 26px;
+    font-family: Montserrat;
+    color: #000000;
+    line-height: 1.5;
+    margin: 0;
+    padding: 40px 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+p {
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1, 2;
+    width: 1200px;
+    padding: 2px 1px 5px 1px;
+    margin: 1px 1px 1px 1px;
+    font-weight: normal;
+
+}
+
+header {
+    background: #66FF99;
+    width: 1000x;
+    height: 90px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu {
+    flex-grow: 1;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    padding: 8px 10px;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.section img {
+    padding-bottom: 20px;
+}
+
+main {
+    padding-top: 40px;
+    padding-left: 3%;
+    padding-right: 20%;
+    padding-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    min-height: 100%;
+
+}
+
+.section img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.menu a,
+.menu .active {
+    display: block;
+    padding: 8px 10px;
+}
+
+.menu .active {
+    color: #fff;
+    background-color: coral;
+    border-radius: 8px;
+}
+
+nav {
+    background: #D5FADC;
+    width: 100%;
+    padding: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    transition: 0.25s;
+
+}
+
+nav .active {
+    color: coral;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: #000000;
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+}
+
+footer a:not(:first-child) {
+    margin-left: 14px;
+}
+
+footer nav a:hover {
+    border-bottom: 1px solid white;
+    /* text-decoration: dashed; */
+}
+
+a {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #000000;
+}
+
+a:hover,
+img:hover {
+    text-decoration: none !important;
+}
+
+.contern {
+    padding-bottom: 90px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: lighter;
+    color: #FFFFFF;
+    line-height: normal;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+
+
+}
+
+.grafic-logo {
+    margin: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    color: #000000;
+    /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    cursor: pointer;
+}
+
+.menu a:after {
+    background-color: #f66d52;
+    /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;
+    /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.menu a:hover:after,
+.menu a:focus:after {
+    width: 100%;
+}
+
+.tel a {
+    display: inline-block;
+    color: #000000;
+    /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    cursor: pointer;
+}
+
+.tel a:after {
+    background-color: #f66d52;
+    /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;
+    /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.tel a:hover:after,
+.tel a:focus:after {
+    width: 100%;
+}
+</style>
