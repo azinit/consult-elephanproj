@@ -1,26 +1,19 @@
-.section img {
-    padding-bottom: 20px;
-}
-
-main {
-    padding-top: 40px;
-    padding-left: 3%;
-    padding-right: 20%;
-    padding-bottom: 40px;
-}
-
 .wrapper {
     display: flex;
     position: relative;
     min-height: 100%;
+}
 
+main {
+    padding: 40px 5%;
+    flex: 1;
 }
 
 .section img {
-    width: 600px;
-    height: 600px;
+    width: 100%;
     object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 }

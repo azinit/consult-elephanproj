@@ -14,7 +14,6 @@ p {
     font-style: normal;
     font-weight: normal;
     line-height: 1, 2;
-    width: 600px;
     padding: 2px 1px 5px 1px;
     margin: 1px 1px 1px 1px;
     font-weight: normal;
@@ -36,7 +35,6 @@ h2 {
     margin: 0;
     padding: 20px 0;
     font-weight: bold;
-    text-align: center;
 }
 
 h4 {
@@ -47,7 +45,6 @@ h4 {
     line-height: normal;
     margin: 0;
     padding: 20px 0;
-    text-align: center;
 }
 
 a {
