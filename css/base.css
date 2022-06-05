@@ -1,0 +1,8 @@
+body {
+    background: url("../image/background.jpg") !important;
+    background-size: cover;
+}
+
+.header, .wrapper {
+    margin: 0 10%;
+}
