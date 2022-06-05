@@ -2,6 +2,11 @@ nav {
     background: #D5FADC;
     width: 500px;
     padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    height: 100vh;
 }
 
 nav li {
