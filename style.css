@@ -1,14 +1,12 @@
-<style>
 h2 {
     font-size: 26px;
     font-family: Montserrat;
     color: #000000;
     line-height: 1.5;
     margin: 0;
-    padding: 40px 0;
+    padding: 20px 0;
     font-weight: bold;
     text-align: center;
-
 }
 
 p {
@@ -18,10 +16,11 @@ p {
     font-style: normal;
     font-weight: normal;
     line-height: 1, 2;
-    width: 1200px;
+    width: 600px;
     padding: 2px 1px 5px 1px;
     margin: 1px 1px 1px 1px;
     font-weight: normal;
+    padding-bottom: 40px;
 
 }
 
@@ -95,7 +94,7 @@ h1 {
     object-fit: cover;
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .menu a,
@@ -112,7 +111,7 @@ h1 {
 
 nav {
     background: #D5FADC;
-    width: 100%;
+    width: 500px;
     padding: 20px;
 }
 
@@ -245,4 +244,7 @@ h4 {
 .tel a:focus:after {
     width: 100%;
 }
-</style>
+
+.SLON section {
+    left: 50%;
+}
